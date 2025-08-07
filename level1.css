@@ -1,0 +1,58 @@
+h3{
+    color: blue;
+}
+h4{
+    color: blueviolet;
+}
+h5{
+    color: yellow;
+}
+h6{
+    color:cadetblue;
+}
+p{
+    color: coral;
+}
+button{
+    color: white;
+    background-color: black;
+}
+#box1{
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    background-color:gray;
+}
+#box2{
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    background-color: blueviolet;
+}
+#box3{
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    background-color: turquoise;
+}
+#box4{
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    background-color: tomato;
+}
+#box5{
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    background-color: springgreen;
+}
+#box{
+    background-color: blue;
+}
+.heading{
+    color: red;
+}
+button{
+    background-color: green;
+}

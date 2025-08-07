@@ -1,0 +1,151 @@
+#box1{
+    height: 100px;
+    width: 100px;
+    background-color: tomato;
+    border: 2px,solid,black;
+    transition: all,3s,ease-out,2s;
+    position: absolute;
+    top: 90px;
+    left: 60px;    
+}
+#box1:hover{
+    background-color:blue;
+    color: white;
+    transform: scale(2);
+    transform: translate(160px);
+    
+}
+#box1:active{
+    background-color:black;
+    color: white;
+}
+
+#box2{
+    height: 100px;
+    width: 100px;
+    background-color:seagreen;
+    border: 2px,solid,black;
+    transition: all,3s,ease-in,2s;
+    position: absolute;
+    top: 90px;
+    left:300px;    
+}
+#box2:hover{
+    background-color:slateblue;
+    color: white;
+    transform: rotate(360deg);    
+}
+#box2:active{
+    background-color:turquoise;
+    color: white;
+}
+
+#box3{
+    height: 100px;
+    width: 100px;
+    background-color:violet;
+    border: 2px,solid,black;
+    transition: all,3s,steps(5),2s;
+    position: absolute;
+    top: 90px;
+    left:600px;    
+}
+#box3:hover{
+    background-color:greenyellow;
+    color: white;
+    transform: scale(2);
+    
+}
+#box3:active{
+    background-color:chocolate;
+    color: white;
+}
+
+#box4{
+    height: 100px;
+    width: 100px;
+    background-color:dimgrey;
+    border: 2px,solid,black;
+    transition: all,3s,ease-in-out,2s;
+    position: absolute;
+    top: 90px;
+    left: 900px;    
+}
+#box4:hover{
+    background-color:darkblue;
+    color: white;
+    transform: skew(45deg);
+    
+}
+#box4:active{
+    background-color:darkkhaki;
+    color: white;
+}
+
+/* #box5{
+    height: 100px;
+    width: 100px;
+    background-color:bisque;
+    border: 2px,solid,black;
+    transition: all,0.5s,ease-in-out,0.2s;
+    position: absolute;
+    top: 90px;
+    left: 1200px;    
+}
+#box5:hover{
+    background-color:chartreuse;
+    color: white;
+    animation: ColorAnimate,1s,0s,infinite;
+    animation-direction:alternate;
+    
+}
+#box5:active{
+    background-color:red;
+    color: white;
+} */
+
+
+#box5 {
+    height: 100px;
+    width: 100px;
+    background-color: bisque;
+    border: 2px solid black; /* Corrected border syntax */
+    transition: background-color 0.5s ease-in-out, color 0.2s ease-in-out; /* Adjusted transition syntax */
+    position: absolute;
+    top: 90px;
+    left: 1200px;
+}
+
+#box5:hover {
+    background-color: chartreuse;
+    color: white;
+    animation: discoLights 1s infinite alternate; /* Added animation */
+}
+
+#box5:active {
+    background-color: red;
+    color: white;
+}
+ #box5:hover{
+    border-radius: 50%;
+    padding-top: 13px;
+
+ }
+/* Animation for the disco light effect */
+@keyframes discoLights {
+    0% {
+        background-color: chartreuse;
+    }
+    25% {
+        background-color: red;
+    }
+    50% {
+        background-color: green;
+    }
+    75% {
+        background-color: black;
+    }
+    100% {
+        background-color:pink;
+    }
+}

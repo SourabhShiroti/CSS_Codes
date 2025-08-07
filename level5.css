@@ -1,0 +1,9 @@
+#box1{
+    height: 100px;
+    width: 100px;
+    background-image: url(https://rukminim2.flixcart.com/image/850/1000/kgsb1jk0-0/poster/n/h/y/medium-twfnp2-beautiful-waterfall-nature-view-large-size-high-original-imafwy37qv2b5g3v.jpeg?q=90&crop=false);
+    background-size: cover;
+    position: fixed;
+    right: 0px;
+    top: 50px;
+}

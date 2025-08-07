@@ -1,0 +1,23 @@
+#heading{
+    text-align: center;
+    text-decoration: underline;
+}
+p{
+    text-align: center;
+    font-weight:bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    line-height: 55px;
+    text-transform:capitalize;
+}
+#head{
+    text-transform: capitalize;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif
+}
+#outer{
+    font-size: 25px;
+}
+#inner{
+    font-size: 10px;
+}
